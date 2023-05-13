@@ -1,0 +1,7 @@
+.d-flex{
+  justify-content: space-around;
+}
+
+.hide-image {
+  display: none;
+}

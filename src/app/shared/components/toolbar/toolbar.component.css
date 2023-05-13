@@ -1,0 +1,41 @@
+.navbar {
+  padding: 0px;
+}
+
+.navbar-expand-lg .navbar-collapse {
+  justify-content: flex-end;
+  margin-right: 50px;
+}
+
+.navbar-nav .nav-item {
+  margin-left: 15px;
+}
+
+.navbar-nav .nav-item.active {
+  background-color: rgb(73, 83, 92);
+
+}
+
+.navbar-nav .nav-link {
+  font-size: 1.5rem;
+}
+
+.text-decoration {
+  font-weight: semi-bold;
+}
+
+.nav-link-hover {
+  cursor: pointer;
+}
+
+ol,
+ul,
+dl {
+  justify-content: flex-end;
+}
+
+.bd-navbar {
+  padding: 0.5rem 0;
+  background-color: transparent;
+  box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15), inset 0 -1px 0 rgba(255, 255, 255, 0.15);
+}
