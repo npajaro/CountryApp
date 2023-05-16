@@ -1,7 +1,7 @@
-<input
-  type="text"
-  [placeholder]="placeholder"
-  class="form-control"
-  (keyup.enter)="emitValue( txtInput.value )"
-  #txtInput
-  >
+<div class="container-fluid">
+  <div class="d-flex" role="search">
+    <input type="text" [placeholder]="placeholder" class="form-control" (keyup.enter)="emitValue( txtInput.value )"
+      #txtInput>
+    <button class="btn btn-secondary" type="button" (click)="emitValue(txtInput.value)">Search</button>
+  </div>
+</div>
