@@ -6,7 +6,7 @@ import { AboutPageComponent } from './shared/pages/about-page/about-page.compone
 
 const routes: Routes = [
   {
-    path: '',
+    path: 'home',
     component: HomePageComponent
   },
   {
